@@ -1,8 +1,29 @@
 aid: bodyport
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bodyport.png
 name: Bodyport
-description: 'Bodyport is a company surfaced as a portfolio company of initialized-capital, playground-global,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Bodyport is a San Francisco healthcare technology company delivering remote
+  heart-failure monitoring. Its FDA-cleared Cardiac Scale captures hemodynamic
+  biomarkers through a patient's feet in under 30 seconds and transmits the
+  readings over cellular to care teams within minutes. The company's Congestion
+  Index algorithm combines multiple hemodynamic biomarkers to detect worsening
+  heart failure earlier than standard weight-based rules, and its connected Care
+  Platform surfaces monitoring, alerts, and care coordination through a clinical
+  dashboard and a patient portal. Bodyport works with health systems and pharma
+  partners including Geisinger, Boehringer Ingelheim, Stanford, Brigham and
+  Women's Hospital, Duke, and Yale. The company publishes no public developer
+  API; this profile captures its product, portal, and compliance surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/bodyport/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +35,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Heart Failure
+- Remote Patient Monitoring
+- Medical Devices
+- Cardiology
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +52,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://bodyport.com/
+  url: https://www.bodyport.com/
+- type: Login
+  url: https://clinical.bodyport.com/
+- type: Support
+  url: mailto:partnerships@bodyport.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bodyport
+- type: Twitter
+  url: https://x.com/bodyport
+- type: Conformance
+  url: conformance/bodyport-conformance.yml
+- type: Compliance
+  url: https://www.bodyport.com/
+- type: DomainSecurity
+  url: security/bodyport-domain-security.yml
+- type: LLMsTxt
+  url: llms/bodyport-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

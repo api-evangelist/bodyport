@@ -1,0 +1,24 @@
+# Bodyport
+
+> Bodyport is a healthcare technology company delivering remote heart-failure monitoring. Its FDA-cleared Cardiac Scale measures hemodynamic biomarkers through a patient's feet in under 30 seconds and transmits the data over cellular to care teams. The Congestion Index algorithm combines those biomarkers to detect worsening heart failure earlier than weight-based rules, surfaced through a connected clinical dashboard and patient portal.
+
+This profile is maintained by API Evangelist (apis.io). Bodyport does not publish a public developer API, OpenAPI specification, SDK, or developer portal; the entries below are the company's public product, portal, and compliance surfaces.
+
+## Products
+- [Bodyport Cardiac Scale](https://www.bodyport.com/): FDA-cleared at-home scale that captures hemodynamic biomarkers through the feet in under 30 seconds.
+- [Congestion Index](https://www.bodyport.com/): Algorithm combining hemodynamic biomarkers to detect worsening heart failure.
+- [Care Platform](https://www.bodyport.com/): Connected clinical dashboard and patient portal for monitoring, alerts, and care coordination.
+
+## Portals
+- [Clinical Dashboard](https://clinical.bodyport.com/): Care-team login for monitoring and alerts (authenticated single-page application).
+- [Patient Portal](https://care.bodyport.com/): Patient-facing login (authenticated).
+
+## Compliance
+- FDA 510(k) cleared (Cardiac Scale)
+- HIPAA compliant
+- SOC 2 certified
+
+## Contact
+- [Partnerships](mailto:partnerships@bodyport.com)
+- [LinkedIn](https://www.linkedin.com/company/bodyport)
+- [X / Twitter](https://x.com/bodyport)

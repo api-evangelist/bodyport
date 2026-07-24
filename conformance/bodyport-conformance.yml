@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.bodyport.com/
+description: >-
+  Compliance posture published on Bodyport's website. Bodyport operates a
+  regulated remote heart-failure monitoring platform (the Bodyport Cardiac
+  Scale and connected Care Platform); the certifications below are stated on
+  the company's public site. No developer-facing API specification is
+  published, so cross-cutting API standards (OAuth2, OIDC, RFC 9457, etc.)
+  cannot be asserted from a spec.
+standards:
+  - id: fda-510k-cleared
+    conforms: true
+    evidence: "Homepage states the Bodyport Cardiac Scale is FDA cleared"
+  - id: hipaa
+    conforms: true
+    evidence: "Homepage states the platform is HIPAA compliant"
+  - id: soc2
+    conforms: true
+    evidence: "Homepage states the company is SOC 2 certified"
+  - id: oauth2
+    conforms: false
+    evidence: "No public OpenAPI or documented OAuth surface"
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: "No public OpenAPI"
+compliance_program:
+  certifications:
+    - FDA 510(k) cleared
+    - HIPAA
+    - SOC 2
+  published_at: https://www.bodyport.com/
